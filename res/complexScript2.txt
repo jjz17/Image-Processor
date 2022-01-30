@@ -1,0 +1,34 @@
+createLayer first
+createLayer second
+createLayer third
+createLayer fourth
+selectCurrent first
+importLayer balloonPNG.png
+blur
+blur
+blur
+makeSepia
+selectCurrent second
+importLayer balloonJPG.jpg
+makeMonochrome
+sharpen
+sharpen
+sharpen
+sharpen
+selectCurrent third
+importLayer balloonPPM.ppm
+makeMonochrome
+sharpen
+removeLayer third
+exportLayer jpg
+makeInvisible
+exportLayer ppm
+makeVisible
+exportLayer png
+createLayer third 
+setAsCopyOf first
+makeCheckerboard 1 640 445 red blue
+exportImage testFolder2  jpg
+importImage testFolder2
+deleteImage
+runScript complexScript.txt
