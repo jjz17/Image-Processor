@@ -7,7 +7,7 @@ commands.
 
 ## Design Choices
 
-This project utilizes the CMV design pattern.
+This project utilizes the MVC design pattern.
 
 ### Controller
 
