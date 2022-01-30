@@ -9,18 +9,6 @@ commands.
 
 This project utilizes the MVC design pattern.
 
-### Controller
-
-Controller interface is defined within IImageProcessorController. One implementation of
-the controller is SimpleImageProcessorController which allows the user to utilize the ImageProcessor
-using a console. The other implementation is GUIController, which processes image operations made
-from the GraphicalView class.
-
-The imageutil class contains the method required to convert a PPM to an IImage, and convert an
-IImage to a BufferedImage.
-
-The operations package contains all operations to completely utilize our model.
-
 ### Model
 
 Model interface is defined within IImageProcessorModel. The only current implementation of the model
@@ -43,6 +31,18 @@ model is ImageProcessorModelTextView, which produces a text view of an IImagePro
 GUI View interface is defined within IView. The one implementation IView is GraphicalView, 
 which represents the graphical representation of the image processor. It utilizes the IViewListener
 to send method calls to the controller.
+
+### Controller
+
+Controller interface is defined within IImageProcessorController. One implementation of
+the controller is SimpleImageProcessorController which allows the user to utilize the ImageProcessor
+using a console. The other implementation is GUIController, which processes image operations made
+from the GraphicalView class.
+
+The imageutil class contains the method required to convert a PPM to an IImage, and convert an
+IImage to a BufferedImage.
+
+The operations package contains all operations to completely utilize our model.
 
 ## Design Changes Since Last Iteration
 
