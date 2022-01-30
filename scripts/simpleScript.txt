@@ -1,0 +1,10 @@
+createLayer first
+importLayer balloonJPG.jpg
+blur
+blur
+blur
+blur
+blur
+blur
+blur
+exportLayer png
