@@ -129,7 +129,7 @@ now desired images for import can be located anywhere.
 
 ## Authors
 
-Programmed by David Huh and Jason Zhang for CS 3500: Object-Oriented Design at Northeastern
+Programmed by Jason Zhang and David Huh for CS 3500: Object-Oriented Design at Northeastern
 University for the Summer 1 term of 2021. Go Huskies!
 
 ## Citation
